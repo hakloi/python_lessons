@@ -1,3 +1,4 @@
+
 from itertools import count
 import os
 clear = lambda: os.system('cls')
