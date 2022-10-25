@@ -10,3 +10,7 @@ print(l)
 print(l[-1])
 
 # присваивание на кортежах не работает
+
+print('\nКортеж по строкам через цикл for:')
+for item in l:
+    print(item)
