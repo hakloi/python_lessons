@@ -16,11 +16,8 @@ def sep_choice():
 
 # Добавить контакт
 def input_info():
-    # inf = []
     name = input('Имя: ')
-    # inf.append(name)
     surname = input('Фамилия: ')
-    # inf.append(surname)
     valid = False
     while valid == False:
         while not valid:
@@ -33,7 +30,6 @@ def input_info():
                     valid = True
             except:
                 print('Номер телефона должен состоять только из цифр.')
-    # inf.append(tel)
     note = input('Примечание: ')
     return [name, surname, tel, note]
 
