@@ -1,3 +1,4 @@
+# Просмотр
 def view(data):
     if len(data) > 0:
         for item in data:
@@ -5,6 +6,7 @@ def view(data):
         else:
             print('Справочник пуст.')
 
+# Поиск по ключевому слову
 def search_inf(word, data):
     if len(data) > 0:
         for item in data:
