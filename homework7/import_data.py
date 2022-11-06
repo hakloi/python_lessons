@@ -1,4 +1,4 @@
-# Импортирует файлы
+# Импортирует файл
 def import_inf(data, sep=None):
     with open('phone.csv', 'a+') as file:
         if sep == None:
