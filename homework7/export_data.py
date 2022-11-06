@@ -1,4 +1,4 @@
-# Экспортирует файлы
+# Экспортирует файл
 def export_inf():
     with open('phone.csv', 'r') as file:
         data = []
